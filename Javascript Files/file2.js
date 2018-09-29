@@ -1,0 +1,1 @@
+alert("hello friends kaise ho Javascript khushk ha :D ");

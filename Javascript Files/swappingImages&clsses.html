@@ -1,0 +1,23 @@
+<html>
+<head>
+    <style>
+        .color{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+        <a href="https//www.youtube.com" id="Link"> Yahooo Youtube !!! </a>
+        <button onclick="getAddress();">GET</button>
+</body>
+<script>
+    function getAddress()
+    {
+        var link1= document.getElementById("Link");
+        link1.className="color";
+        var address= link1.href;
+        alert(address);
+       
+    }
+</script>    
+</html>

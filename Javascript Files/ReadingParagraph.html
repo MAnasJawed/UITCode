@@ -1,0 +1,24 @@
+<html>
+<head>
+</head>
+<body>
+    <p id="Txt">
+            Slow lorises are a group of several species of strepsirrhine primates which make up the genus
+            Nycticebus. They have a round head, narrow snout, large eyes, and a variety of distinctive coloration
+            patterns that are species-dependent. The hands and feet of slow lorises have several adaptations
+            that give them a pincer-like grip and enable them to grasp branches for long periods of time. Slow
+            lorises have a toxic bite, a rare trait among mammals.
+            <a href="javascript:void(0);" onclick="expand();"><em>Click for more</em></a>
+    </p>
+</body>
+<script>
+    function expand()
+    {
+        var para=document.getElementById("Txt")
+        alert(para)
+        alert(para.innerHTML)
+        para.innerHTML="hello world"
+        
+    }
+</script>
+</html>

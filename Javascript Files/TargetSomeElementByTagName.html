@@ -1,0 +1,44 @@
+<html>
+<head>
+        <style>
+        </style>
+</head>
+<body>
+    <div id="div1">
+        <p id="p1">Hello World Welcome to Jvascript</p>
+        <p id="p2">Hello World Welcome to Jvascript</p>
+        <p id="p3">Hello World Welcome to Jvascript</p>
+    </div>
+    <div id="div2">
+        <p id="p4">Hello World Welcome to Jvascript</p>
+        <p id="p5">Hello World Welcome to Jvascript</p>
+        <p id="p6">Hello World Welcome to Jvascript</p>
+    </div>
+    
+
+        <button onclick="applyfirst();">First</button>
+        <button onclick="applySecond();">Second</button>
+
+    </div>
+    
+</body>
+        <script>
+            function applyfirst()
+            {
+                var list=document.getElementsByTagName("p")
+                for(var i=0;i<list.length;i++)
+                {
+                    list[i].style.color="yellow";
+                }
+            }
+            function applySecond()
+            {
+                var divElement=document.getElementById("div2")
+                var list=divElement.getElementsByTagName("p")
+                for(var i=0;i<list.length;i++)
+                {
+                    list[i].style.color="red";
+                }
+            }
+        </script>
+</html>
